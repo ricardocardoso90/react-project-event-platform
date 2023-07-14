@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-600);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 5px
+    }
+
+    h2 {
+      font-size: 12px;
+      margin-left: 5px
+    }
+  };
+}
