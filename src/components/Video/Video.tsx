@@ -27,8 +27,6 @@ interface videoProps {
   lessonSlug: string;
 }
 
-const name = "Ricardo"
-
 export function Video({lessonSlug}: videoProps) {
   const { data } = useQuery<GetLessonBySlugResponse>(GET_LESSON_BY_SLUG_QUERY, {
     variables: {
