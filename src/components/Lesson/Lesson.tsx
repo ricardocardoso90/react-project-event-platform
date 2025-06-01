@@ -1,19 +1,17 @@
 import styles from './Lesson.module.scss'
-import { CheckCircle, Lock } from 'phosphor-react'
-import { isPast, format } from 'date-fns'
 
 import ptBR from 'date-fns/locale/pt-BR'
-import { LessonProps } from '../../types/types'
+import { isPast, format } from 'date-fns'
+import { CheckCircle, Lock } from 'phosphor-react'
 
+import { LessonProps } from '../../types/types'
 import { Link, useParams } from 'react-router-dom'
 
 export function Lesson(props: LessonProps) {
   const { params } = useParams<{ params: string }>();
 
   const isLessonAvailable = isPast(props.availableAt);
-  const availableDateFormatted = format(props.availableAt, "EEEE' • 'd' de 'MMMM' • 'k'h'mm", {
-    locale: ptBR
-  });
+  const availableDateFormatted = format(props.availableAt, "EEEE' • 'd' de 'MMMM' • 'k'h'mm", {locale: ptBR});
 
   const isActive = params === props.slug;
 
