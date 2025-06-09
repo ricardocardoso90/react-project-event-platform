@@ -1,9 +1,9 @@
-import { Header } from '../../components/Header/Header'
-import { Sidebar } from '../../components/Sidebar/Sidebar'
-import { Video } from '../../components/Video/Video'
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
+import { Header } from '../../components/Header/Header';
+import { Sidebar } from '../../components/Sidebar/Sidebar';
+import { Video } from '../../components/Video/Video';
 
-import styles from './Event.module.scss'
+import styles from './Event.module.scss';
 
 export function Event() {
   const { params } = useParams<{ params: string }>();
@@ -21,5 +21,3 @@ export function Event() {
     </div>
   )
 }
-
-//A tela completa do sitema vai ter 1440px;

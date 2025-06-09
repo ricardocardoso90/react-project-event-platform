@@ -1,5 +1,5 @@
-import styles from './Home.module.scss'
 import { useState } from 'react';
+import styles from './Home.module.scss'
 import { useNavigate } from 'react-router-dom';
 import { gql, useMutation } from '@apollo/client';
 
@@ -7,10 +7,9 @@ const CREATE_SUBSCRIBER_MUTATION = gql`
   mutation CreateSubscribe($name: String! $email: String!) {
     createSubscriber(data: {name: $name, email: $email}) {
       id
-    }
-  }
+    };
+  };
 `
-
 export function Home() {
   const navigate = useNavigate();
 
@@ -27,7 +26,7 @@ export function Home() {
         name: nameField,
         email: emailField,
       }
-    })
+    });
 
     setNameField('');
     setEmailField('');
