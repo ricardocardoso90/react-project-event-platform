@@ -1,4 +1,4 @@
-# 📅 Event Platform
+# Event Platform
 
 Plataforma de eventos desenvolvida com **React**, **Vite**, **TypeScript**, **GraphQL** e **TailwindCSS**. Este projeto simula uma plataforma de eventos ao vivo, permitindo o cadastro de participantes e exibição de vídeos/aulas, com layout responsivo e moderno.
 
