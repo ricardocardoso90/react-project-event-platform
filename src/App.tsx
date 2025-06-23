@@ -1,8 +1,9 @@
-import './styles/globals.scss'
-import { ApolloProvider } from '@apollo/client'
-import { client } from './lib/apollo'
-import { BrowserRouter } from 'react-router-dom'
-import { Routes } from './Routes/Router'
+import './styles/globals.scss';
+import { client } from './lib/apollo';
+import { ApolloProvider } from '@apollo/client';
+import { BrowserRouter } from 'react-router-dom';
+
+import { Routes } from './routes';
 
 export function App() {
   return (
@@ -11,5 +12,5 @@ export function App() {
         <Routes />
       </BrowserRouter>
     </ApolloProvider>
-  )
+  );
 }
