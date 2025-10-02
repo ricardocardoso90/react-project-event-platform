@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Event Platform
 =======
 # Projeto Event Platform
 >>>>>>> e38660f (edit)
 
 Plataforma de eventos desenvolvida com **React**, **Vite**, **TypeScript**, **GraphQL** e **TailwindCSS**. Este projeto simula uma plataforma de eventos ao vivo, permitindo o cadastro de participantes e exibição de vídeos/aulas, com layout responsivo e moderno.
+=======
+# Projeto Ignite Feed
+
+Projeto desenvolvido durante o curso Ignite Lab da Rocketseat.
+>>>>>>> 749b62b (update)
 
 ## 🚀 Funcionalidades
 
