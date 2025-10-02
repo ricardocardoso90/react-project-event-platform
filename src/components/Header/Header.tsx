@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import styles from './Header.module.scss'
+=======
+import styles from "./Header.module.scss";
+import igniteLogo from "../../assets/ignite-logo.svg";
+>>>>>>> 8d27078 (update commit)
 
 export function Header() {
   return (
@@ -10,5 +15,10 @@ export function Header() {
       <strong>Ignite Feed</strong>
 >>>>>>> e38660f (edit)
     </header>
+<<<<<<< HEAD
   )
 }
+=======
+  );
+}
+>>>>>>> 8d27078 (update commit)

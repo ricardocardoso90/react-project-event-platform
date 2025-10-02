@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto Ignite Feed
 
 Projeto desenvolvido durante o curso Ignite Lab da Rocketseat.
@@ -12,3 +13,5 @@ Tecnologias utilizadas: React + TypeScript.
 ### Para rodar:
 
 - `npm run dev`
+=======
+>>>>>>> 8d27078 (update commit)
