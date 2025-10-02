@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Event Platform
 =======
 # Projeto Event Platform
