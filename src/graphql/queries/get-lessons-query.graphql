@@ -5,5 +5,5 @@ query GetLessons {
     availableAt
     title
     slug
-  }
-}
+  };
+};
