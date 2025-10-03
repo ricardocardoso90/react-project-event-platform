@@ -1,0 +1,86 @@
+.lesson-link {
+  text-decoration: none;
+  display: block;
+}
+
+.lesson-date {
+  color: #d1d5db;
+  /* text-gray-300 */
+  font-size: 0.875rem;
+}
+
+.lesson-card {
+  border-radius: 0.5rem;
+  border: 1px solid #6b7280;
+  /* border-gray-500 */
+  padding: 1rem;
+  margin-top: 0.5rem;
+  transition: border 0.2s;
+}
+
+.lesson-link:hover .lesson-card {
+  border-color: #22c55e;
+  /* green-500 */
+}
+
+.lesson-card.active {
+  background-color: #22c55e;
+  /* bg-green-500 */
+}
+
+.lesson-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lesson-status {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-available {
+  color: #3b82f6;
+  /* blue-500 */
+}
+
+.status-soon {
+  color: #f97316;
+  /* orange-500 */
+}
+
+.status-active {
+  color: #ffffff;
+}
+
+.lesson-type {
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  padding: 2px 8px;
+  color: #ffffff;
+}
+
+.type-active {
+  border-color: #ffffff;
+}
+
+.type-default {
+  border-color: #86efac;
+  /* green-300 */
+}
+
+.lesson-title {
+  margin-top: 1.25rem;
+  display: block;
+  color: #e5e7eb;
+  /* gray-200 */
+}
+
+.lesson-title.title-active {
+  color: #ffffff;
+}

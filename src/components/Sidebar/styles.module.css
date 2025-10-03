@@ -1,0 +1,22 @@
+.sidebar {
+  width: 348px;
+  background-color: #374151; /* bg-gray-700 */
+  padding: 1.5rem;          /* p-6 */
+  border-left: 1px solid #4b5563; /* border-gray-600 */
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 1.5rem;        /* text-2xl */
+  padding-bottom: 1.5rem;   /* pb-6 */
+  margin-bottom: 1.5rem;    /* mb-6 */
+  border-bottom: 1px solid #6b7280; /* border-gray-500 */
+  display: block;
+  color: #ffffff;
+}
+
+.sidebar-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* gap-8 */
+}

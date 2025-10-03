@@ -1,0 +1,16 @@
+.logo {
+  width: 237px;
+  height: 34px;
+}
+
+.logo-main {
+  fill: #ffffff;
+}
+
+.logo-secondary {
+  fill: #c4c4cc;
+}
+
+.logo-highlight {
+  fill: #00b37e;
+}

@@ -1,0 +1,164 @@
+.video-wrapper {
+  flex: 1;
+}
+
+.video-player-container {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  max-height: 60vh;
+  aspect-ratio: 16/9;
+}
+
+.video-content {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.video-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.video-info h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.video-info p {
+  margin-top: 1rem;
+  color: #e5e7eb; /* gray-200 */
+  line-height: 1.6;
+}
+
+.teacher {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.teacher img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #3b82f6; /* blue-500 */
+}
+
+.teacher-info {
+  line-height: 1.4;
+}
+
+.teacher-info strong {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  color: #fff;
+}
+
+.teacher-info span {
+  font-size: 0.875rem;
+  color: #e5e7eb;
+  display: block;
+}
+
+.video-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-discord {
+  background-color: #22c55e; /* green-500 */
+  color: #fff;
+}
+
+.btn-discord:hover {
+  background-color: #15803d; /* green-700 */
+}
+
+.btn-challenge {
+  border: 1px solid #3b82f6; /* blue-500 */
+  color: #3b82f6;
+}
+
+.btn-challenge:hover {
+  background-color: #3b82f6;
+  color: #111827; /* gray-900 */
+}
+
+.video-resources {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.resource {
+  background-color: #374151; /* gray-700 */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.resource:hover {
+  background-color: #4b5563; /* gray-600 */
+}
+
+.resource-icon {
+  background-color: #15803d; /* green-700 */
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resource-text {
+  padding: 1.5rem 0;
+  line-height: 1.6;
+  color: #e5e7eb;
+  flex: 1;
+}
+
+.resource-text strong {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.resource-text p {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.resource-arrow {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
