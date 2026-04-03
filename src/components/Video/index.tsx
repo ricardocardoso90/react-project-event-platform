@@ -1,7 +1,6 @@
-import "@vime/core/themes/default.css";
 import styles from "./styles.module.css";
+import ReactPlayer from "react-player";
 
-import { DefaultUi, Player, Youtube } from "@vime/react";
 import { useGetLessonBySlugQuery } from "../../graphql/generated";
 import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-react";
 
@@ -28,10 +27,12 @@ export function Video(props: VideoProps) {
     <div className={styles["video-wrapper"]}>
       <div className={styles["video-container"]}>
         <div className={styles["video-player"]}>
-          <Player>
-            <Youtube videoId={data.lesson.videoId} />
-            <DefaultUi />
-          </Player>
+          <ReactPlayer
+            url={`https://www.youtube.com/watch?v=${data.lesson.videoId}`}
+            controls
+            width="100%"
+            height="100%"
+          />
         </div>
       </div>
 

@@ -1,12 +1,10 @@
-import styles from "./Subscribe.module.css";
+import styles from "./styles.module.css";
 
 import { Logo } from "../../components/Logo";
 import { useCreateSubscriberMutation } from "../../graphql/generated";
 
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-import "./Subscribe.css";
 
 export function Subscribe() {
   const navigate = useNavigate();
